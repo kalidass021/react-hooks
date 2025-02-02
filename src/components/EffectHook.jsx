@@ -16,7 +16,7 @@ const EffectHook = () => {
         setTimeout(() => {
             setCount(count => count + 1);
         }, 2000);
-    })
+    }, []);
   return (
     <>
       <h1>I have rendered {count} times</h1>
