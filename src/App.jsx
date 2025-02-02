@@ -5,6 +5,8 @@ import RefHook from './components/RefHook';
 import CallbackHook from './components/CallbackHook';
 import StateHook from './components/StateHook';
 import StateHook2 from './components/StateHook2';
+import Profile from './components/Profile';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -15,7 +17,9 @@ const App = () => {
       {/* <EffectHook /> */}
       {/* <RefHook /> */}
       {/* <MemoHook /> */}
-      <CallbackHook />
+      {/* <CallbackHook /> */}
+      <Profile />
+      <Footer />
     </>
   );
 };
