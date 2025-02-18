@@ -8,6 +8,7 @@ import StateHook2 from './components/StateHook2';
 import Profile from './components/Profile';
 import Footer from './components/Footer';
 import LayoutEffectHook from './components/LayoutEffectHook';
+import ReducerHook from './components/ReducerHook';
 
 const App = () => {
   return (
@@ -21,7 +22,8 @@ const App = () => {
       {/* <CallbackHook /> */}
       {/* <Profile />
       <Footer /> */}
-      <LayoutEffectHook />
+      <ReducerHook />
+      {/* <LayoutEffectHook /> */}
     </>
   );
 };
